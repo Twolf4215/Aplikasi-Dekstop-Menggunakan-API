@@ -1,0 +1,21 @@
+.bg-page {
+    background-color: rgb(84, 179, 179);
+}
+
+.box-output {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.img-item {
+    width: 100px;
+    height: 100px;
+}
+
+.card-item {
+    width: 100px;
+    border: 1px solid rgb(99, 99, 184);
+    text-align: center;
+}

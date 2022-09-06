@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="style.js"></script>
+    <title>Cuaca</title>
+</head>
+<body>
+    <body class="text-center bg-indigo-700">
+        <section class="container p-8 text-center flex flex-col justify-center items-center">
+            <h1 class="text-3xl font-bold p-2 m-2 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-cyan-500">Aplikasi Cuaca</h1>
+            <p>
+                <input class="border-b-4 border-b-green-900 rounded-lg p-2 text-xl focus:outline-none" type="text" name="" placeholder="Cari Kota Disini..." id="nama-kota">
+                <button class="border-2 border-green-800 rounded-lg p-2 text-xl text-center transition ease-in-out delay-150 active:scale-95 bg-gradient-to-r from-emerald-500 to-teal-500 drop-shadow-md hover:drop-shadow-2xl" id="findBtn">Cari Kota</button>
+            </p>
+            <section class="result-container p-4 m-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4">
+                <div class="weather border-2 p-4 m-4 rounded-lg backdrop-blur-md drop-shadow-xl">
+                    <p>Cuaca:</p>
+                    <p class="font-bold text-zinc-100" id="weather-description" >--</p>
+                </div>
+                <div class="temp border-2 p-4 m-4 rounded-lg backdrop-blur-md drop-shadow-xl">
+                    <p>Suhu:</p>
+                    <p class="font-bold text-zinc-100" id="temp">--</p>
+                </div>
+                <div class="windSpeed border-2 p-4 m-4 rounded-lg backdrop-blur-md drop-shadow-xl">
+                    <p>Kecepatan Angin:</p>
+                    <p class="font-bold text-zinc-100" id="wind-speed">--</p>
+                </div>
+                <div class="humidity border-2 p-4 m-4 rounded-lg backdrop-blur-md drop-shadow-xl">
+                    <p>Kelembapan:</p>
+                    <p class="font-bold text-zinc-100" id="humidity">--</p>
+                </div>
+            </section>
+        </section>
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
