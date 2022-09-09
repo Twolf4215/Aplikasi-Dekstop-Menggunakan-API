@@ -1,0 +1,5 @@
+install npm
+install electron 
+  npm install electron -g
+  npm install create-electron-app -g
+  npm run make
